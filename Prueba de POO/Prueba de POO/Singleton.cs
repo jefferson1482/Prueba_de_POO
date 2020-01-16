@@ -9,25 +9,26 @@ namespace Prueba_de_POO
     public class Singleton
     {
         
-        public string Name { get; set; }
+        //Creamos el objeto Nombre
+        public string Nombre { get; set; }
         private Singleton()
         {
 
         }
-
-        private static Singleton _singleton;
+        //static es para que el  elemento quede en memoria para que no los elimine
+        private static Singleton singleton;
 
         public static Singleton GetInstance()
         {
 
-            if (_singleton == null)
+            if (singleton == null)
             {
-
-                _singleton = new Singleton();
+                //Es para no instanciar en el program, directamente se realiza aqui 
+                singleton = new Singleton();
 
             }
 
-            return _singleton;
+            return singleton;
 
         }
     }
