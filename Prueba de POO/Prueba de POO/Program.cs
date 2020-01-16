@@ -10,18 +10,19 @@ namespace Prueba_de_POO
     {
         static void Main(string[] args)
         {
+            //Aquí creamos 4 objetos que pertenecen, en realidad, al mismo objeto: el objeto único
             var singleton1 = Singleton.GetInstance();
             var singleton2 = Singleton.GetInstance();
             var singleton3 = Singleton.GetInstance();
             var singleton4 = Singleton.GetInstance();
-            singleton1.Name = "Sample 1";
-            singleton2.Name = "Sample 2";
-            singleton3.Name = "Sample 3";
-            singleton4.Name = "Sample 4";
-            Console.WriteLine("Objeto 1: " + singleton1.Name);
-            Console.WriteLine("Objeto 2: " + singleton2.Name);
-            Console.WriteLine("Objeto 3: " + singleton3.Name);
-            Console.WriteLine("Objeto 4: " + singleton4.Name);
+            singleton1.Nombre = "EJEMPLO 1";
+            singleton2.Nombre = "EJEMPLO 2";
+            singleton3.Nombre = "EJEMPLO 3";
+            singleton4.Nombre = "EJEMPLO 4";
+            Console.WriteLine("HOLA: " + singleton1.Nombre);
+            Console.WriteLine("INGENIERO: " + singleton2.Nombre);
+            Console.WriteLine("PANCHANA: " + singleton3.Nombre);
+            Console.WriteLine("DE PARTAR DE JJVR: " + singleton4.Nombre);
             Console.ReadLine();
         }
     }
