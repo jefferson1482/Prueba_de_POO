@@ -1,0 +1,6 @@
+C:\Users\CompuStore\source\repos\Prueba de POO\Prueba de POO\obj\Debug\Prueba de POO.csprojAssemblyReference.cache
+C:\Users\CompuStore\source\repos\Prueba de POO\Prueba de POO\bin\Debug\Prueba de POO.exe.config
+C:\Users\CompuStore\source\repos\Prueba de POO\Prueba de POO\bin\Debug\Prueba de POO.exe
+C:\Users\CompuStore\source\repos\Prueba de POO\Prueba de POO\bin\Debug\Prueba de POO.pdb
+C:\Users\CompuStore\source\repos\Prueba de POO\Prueba de POO\obj\Debug\Prueba de POO.exe
+C:\Users\CompuStore\source\repos\Prueba de POO\Prueba de POO\obj\Debug\Prueba de POO.pdb
